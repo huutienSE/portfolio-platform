@@ -27,13 +27,13 @@
 .skill-card h3 {
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     color: var(--color-primary);
 }
 
 .skill-card ul { 
     display: grid;
-    gap: 10px;
+    gap: 8px;
 }
 
 .skill-card li {
