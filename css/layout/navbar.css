@@ -1,6 +1,7 @@
 .navbar {
     padding: 20px 0;
     border-bottom: 1px solid #e2e8f0;
+    background-color: var(--color-bg);
 }
 
 .navbar .container {
@@ -9,9 +10,35 @@
     align-items: center;
 }
 
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -6px;
+
+    width: 0;
+    height: 2px;
+
+    background-color: var(--color-primary);
+
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
 .navbar-menu {
     display: flex;
-    gap: var(--space-lg);
+    font-size: 20px;
+    font-weight: 400;
+    gap: 40px;
 }
 
 .navbar-menu a {
@@ -25,8 +52,8 @@
 }
 
 .navbar-logo {
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 800;
+    font-size: 32px;
     color: var(--color-primary);
 
     cursor: pointer;
