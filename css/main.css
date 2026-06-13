@@ -4,10 +4,14 @@
 
 @import url("./layout/navbar.css");
 @import url("./layout/container.css");
-
+@import url("./layout/footer.css");
+@import url("./layout/grid.css");
 @import url("./pages/home.css");
 
 @import url("./components/card.css");
 @import url("./components/section.css");
 @import url("./components/button.css");
 
+@import url("./pages/home.css");
+
+@import url("./layout/responsive.css");
