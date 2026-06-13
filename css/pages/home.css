@@ -150,3 +150,17 @@ Skills
     grid-template-columns: repeat(4, 1fr);
     gap: var(--space-lg);
 }
+
+/* 
+Projects
+ */
+
+#projects {
+    padding: 80px 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+}
