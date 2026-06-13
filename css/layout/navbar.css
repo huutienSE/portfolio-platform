@@ -65,7 +65,7 @@
 }
 
 
-.btn-login {
+.btn-navbar {
     border: 1px solid var(--color-primary);
 
     border-radius: 8px;
@@ -79,7 +79,7 @@
     transition: all 0.3s ease;
 }
 
-.btn-login:hover {
+.btn-navbar:hover {
     background-color: var(--color-primary);
     color: white;
 }
