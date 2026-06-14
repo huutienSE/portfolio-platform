@@ -124,6 +124,14 @@
     .contact-content {
         max-width: 100%;
     }
+
+    /* 
+        login
+    */
+    .login-card {
+        max-width: 460px;
+        padding: 36px;
+    }
 }
 
 
@@ -293,4 +301,35 @@
     #footer {
         padding: 28px 0;
     }
+    /* 
+        login
+    */
+    .login-page {
+        padding: 20px;
+        align-items: flex-start;
+        padding-top: 80px;
+    }
+
+    .login-card {
+        padding: 28px 22px;
+        border-radius: 14px;
+    }
+
+    .login-header h1 {
+        font-size: 28px;
+    }
+
+    .login-header p {
+        font-size: 15px;
+    }
+
+    .form-group input {
+        font-size: 15px;
+        padding: 11px 12px;
+    }
+
+    .btn-submit {
+        padding: 12px 18px;
+    }
+
 }
