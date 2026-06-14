@@ -132,6 +132,30 @@
         max-width: 460px;
         padding: 36px;
     }
+    /* 
+        admin
+     */
+
+    .admin-layout {
+        grid-template-columns: 220px 1fr;
+    }
+
+    .admin-sidebar {
+        padding: 28px 18px;
+    }
+
+    .admin-nav a {
+        padding: 12px 14px;
+        font-size: 14px;
+    }
+
+    .admin-main {
+        padding: 28px;
+    }
+
+    .admin-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
@@ -330,6 +354,106 @@
 
     .btn-submit {
         padding: 12px 18px;
+    }
+
+    /* 
+        admin
+    */
+ 
+    .admin-layout {
+        display: block;
+    }
+
+    .admin-sidebar {
+        position: relative;
+
+        border-right: none;
+        border-bottom: 1px solid #e2e8f0;
+        padding: 20px;
+    }
+
+    .admin-sidebar-header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .admin-logo {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .admin-dropdown {
+        position: relative;
+    }
+    .admin-menu-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 40px;
+        height: 40px;
+
+        border: none;
+        background-color: transparent;
+
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .admin-nav {
+        display: none;
+
+        position: absolute;
+        top: 100%;
+        right: 0;
+
+        width: 220px;
+        padding: 16px;
+
+        background-color: var(--color-surface);
+
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+
+        z-index: 20;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .admin-dropdown:hover .admin-nav {
+        display: flex;
+    }
+
+    .admin-nav a:hover {
+        background-color: #f1f5f9;
+        color: var(--color-primary);
+        transform: translateX(4px);
+    }
+    .admin-main {
+        padding: 24px 20px;
+    }
+    
+    .admin-topbar h2 {
+        font-size: 28px;
+    }
+
+    
+    .admin-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-table-section {
+        overflow-x: auto;
+    }
+
+    .admin-table {
+        min-width: 700px;
     }
 
 }
