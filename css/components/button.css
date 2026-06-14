@@ -12,3 +12,28 @@
     background-color: var(--color-primary);
     color: white;
 }
+
+.btn-submit {
+    width: 100%;
+
+    padding: 12px 20px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: var(--color-primary);
+
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    margin-top: 20px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: var(--color-accent);
+}
